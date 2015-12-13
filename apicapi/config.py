@@ -41,7 +41,7 @@ apic_opts = [
     cfg.BoolOpt('scope_infra', default=True),
     cfg.BoolOpt('renew_names', default=False),
     cfg.StrOpt('apic_model',
-               default='neutron.plugins.ml2.drivers.cisco.apic.apic_model'),
+        default='networking_cisco.plugins.ml2.drivers.cisco.apic.apic_model'),
     cfg.BoolOpt('use_vmm', default=True),
     cfg.StrOpt('apic_vmm_type',
                default='OpenStack',
